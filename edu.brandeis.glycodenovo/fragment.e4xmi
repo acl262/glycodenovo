@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_IcyH8IifEeimNZBcUjjMgQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_ioltgIifEeimNZBcUjjMgQ" featurename="commands" parentElementId="org.grits.toolbox.core.application">
+    <elements xsi:type="commands:Command" xmi:id="_jbS80IifEeimNZBcUjjMgQ" elementId="edu.brandeis.glycodenovo.command.ShowWizard" commandName="NewGlycoDeNovo"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_PS8-MIlSEeihzsjmxyXXwA" featurename="children" parentElementId="org.grits.toolbox.core.toolbar.main">
+    <elements xsi:type="menu:HandledToolItem" xmi:id="_0Q-JIIlSEeihzsjmxyXXwA" elementId="edu.brandeis.glycodenovo.handledtoolitem.newglycodenovoannotation" label="New GlycoDeNovo Annotation" iconURI="platform:/plugin/edu.brandeis.glycodenovo/icons/sample.png" tooltip="Create a new GlycoDeNovo Glycan Annotation" command="_jbS80IifEeimNZBcUjjMgQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_5nP1AIl4EeiD4r3fyDvfpA" featurename="handlers" parentElementId="org.grits.toolbox.core.application">
+    <elements xsi:type="commands:Handler" xmi:id="_6hIqYIl4EeiD4r3fyDvfpA" elementId="edu.brandeis.glycodenovo.handler.0" contributionURI="bundleclass://edu.brandeis.glycodenovo/edu.brandeis.glycodenovo.handlers.OpenGlycoDeNovo" command="_jbS80IifEeimNZBcUjjMgQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_BkUj0Il6EeiD4r3fyDvfpA" featurename="children" parentElementId="org.grits.toolbox.core.menu.main.grits.new">
+    <elements xsi:type="menu:HandledMenuItem" xmi:id="_IQ2GMIl6EeiD4r3fyDvfpA" elementId="edu.brandeis.glycodenovo.handledmenuitem.glycodenovoannotation" label="MS GlycoDeNovo Annotation" iconURI="platform:/plugin/edu.brandeis.glycodenovo/icons/sample.png" command="_jbS80IifEeimNZBcUjjMgQ"/>
+  </fragments>
+</fragment:ModelFragments>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mzXML xmlns="http://sashimi.sourceforge.net/schema_revision/mzXML_3.2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://sashimi.sourceforge.net/schema_revision/mzXML_3.2 http://sashimi.sourceforge.net/schema_revision/mzXML_3.2/mzXML_idx_3.2.xsd">
+  <msRun scanCount="1" startTime="PT0S" endTime="PT0S">
+    <parentFile fileName="file://D:\GRITS Toolbox\Archive Data\DEMO2016 GRITS\Maldi-N-glycans_Mosquito_F_PA\0_B6\1\1SRef/fid"
+                fileType="RAWData"
+                fileSha1="b3681d7828b25b8eb145699c15e0dc1a7e0471a9"/>
+    <msInstrument msInstrumentID="1">
+      <msManufacturer category="msManufacturer" value="Bruker Daltonics"/>
+      <msModel category="msModel" value="Bruker Daltonics flex series"/>
+      <msIonisation category="msIonisation" value="matrix-assisted laser desorption ionization"/>
+      <msMassAnalyzer category="msMassAnalyzer" value="time-of-flight"/>
+      <msDetector category="msDetector" value="microchannel plate detector"/>
+      <software type="acquisition" name="FlexControl" version="unknown"/>
+    </msInstrument>
+    <dataProcessing>
+      <software type="conversion" name="ProteoWizard software" version="3.0.9283"/>
+      <processingOperation name="Conversion to mzML"/>
+    </dataProcessing>
+    <scan num="1"
+          scanType="Full"
+          centroided="0"
+          msLevel="1"
+          peaksCount="0"
+          polarity="+"
+          retentionTime="PT0S"
+          msInstrumentID="1">
+      <peaks>
+        </peaks>
+        </msRun>
+  <index name="scan">
+    <offset id="1">1340</offset>
+  </index>
+  <indexOffset>1701680</indexOffset>
+  <sha1>acf301f9074b56f6b40c12d80fbd886c9ca6dc7c</sha1>
+</mzXML>
